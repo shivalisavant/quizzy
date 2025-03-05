@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>✨ Cute Animal Quiz ✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>🌸 Which Cute Animal Are You? 🌸</h1>
+        <p>Answer these q’s to find out! 💕</p>
+        
+        <div id="quiz">
+            <h3>1. What’s your fave snack?</h3>
+            <button onclick="addScore('bunny')">Carrots 🥕</button>
+            <button onclick="addScore('cat')">Cookies 🍪</button>
+            <button onclick="addScore('panda')">Bamboo 🌿</button>
+        </div>
+        
+        <div id="result" style="display:none;">
+            <h2>Your Result! 🎉</h2>
+            <p id="animal"></p>
+            <button onclick="resetQuiz()">Play Again! 🌟</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
